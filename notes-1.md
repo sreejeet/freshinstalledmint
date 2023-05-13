@@ -1,8 +1,8 @@
 # Remove pre-installed
-`sudo apt purge libreoffice-* hexchat celluloid redshift rhythmbox hypnotix timeshift warpinator transmission-* thunderbird sticky simple-scan pix rclone`
+`sudo apt purge libreoffice-* hexchat celluloid redshift rhythmbox hypnotix timeshift warpinator transmission-* thunderbird sticky simple-scan pix`
 
 # Install essentials
-`sudo apt install vim htop vlc bc module-assistant build-essential dkms`
+`sudo apt install vim htop vlc bc module-assistant build-essential dkms rclone`
 
 # Lines to be add to ~/.bashrc
 ```
