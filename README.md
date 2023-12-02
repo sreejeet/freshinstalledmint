@@ -1,6 +1,6 @@
-# freshinstalledmint
-### A few commands and notes for my fresh [Linux Mint](https://linuxmint.com/) installation
-### This should work fine with LMDE 6 as well.
+# FreshInstalledMint
+### A few commands and notes for my fresh [Linux Mint](https://linuxmint.com/) installation.
+### This should work fine with Ubuntu and Debian based LinuxMint.
 
 # Remove pre-installed
 ```
