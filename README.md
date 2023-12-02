@@ -27,6 +27,5 @@ export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\
 alias of="xdg-open $1"
 alias nvrun="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia $1"
 alias gb="git branch -vv"
-alias clmem="sudo sh -c 'echo 3 >  /proc/sys/vm/drop_caches' && sudo swapoff -a && sudo swapon -a"
 ' >> ~/.bashrc
 ```
