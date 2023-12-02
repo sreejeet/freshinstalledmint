@@ -19,6 +19,7 @@ gsettings set org.cinnamon.desktop.keybindings.media-keys volume-up "['XF86Audio
 gsettings set org.cinnamon.desktop.keybindings.media-keys volume-down "['XF86AudioLowerVolume', '<Alt>comma']"
 gsettings set org.cinnamon.desktop.keybindings.media-keys volume-mute "['XF86AudioMute', '<Alt>slash']"
 gsettings set org.cinnamon.desktop.keybindings.media-keys terminal "['<Primary><Alt>t', '<Super>Return']"
+gsettings set org.cinnamon.desktop.keybindings.wm minimize "['<Alt>m']"
 ```
 
 # Lines to be add to ~/.bashrc
