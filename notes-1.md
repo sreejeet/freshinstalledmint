@@ -7,9 +7,9 @@
 # Keyboard shortcuts
 ```
 gsettings set org.cinnamon.desktop.keybindings.wm close "['<Alt>F4', '<Super>q']"
-gsettings set org.cinnamon.desktop.keybindings.media-keys volume-up ['XF86AudioRaiseVolume', '<Alt>period']
-gsettings set org.cinnamon.desktop.keybindings.media-keys volume-down ['XF86AudioLowerVolume', '<Alt>comma']
-gsettings set org.cinnamon.desktop.keybindings.media-keys volume-mute ['XF86AudioMute', '<Alt>slash']
+gsettings set org.cinnamon.desktop.keybindings.media-keys volume-up "['XF86AudioRaiseVolume', '<Alt>period']"
+gsettings set org.cinnamon.desktop.keybindings.media-keys volume-down "['XF86AudioLowerVolume', '<Alt>comma']"
+gsettings set org.cinnamon.desktop.keybindings.media-keys volume-mute "['XF86AudioMute', '<Alt>slash']"
 ```
 
 # Lines to be add to ~/.bashrc
