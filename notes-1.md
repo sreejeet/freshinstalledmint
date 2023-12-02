@@ -1,8 +1,11 @@
 # Remove pre-installed
-`sudo apt purge libreoffice-* hexchat celluloid redshift rhythmbox hypnotix timeshift warpinator transmission-* thunderbird sticky simple-scan pix`
+`sudo apt purge libreoffice-* hexchat hexchat-common celluloid redshift rhythmbox hypnotix timeshift warpinator transmission-* thunderbird sticky simple-scan pix`
 
 # Install essentials
-`sudo apt install vim htop vlc bc module-assistant build-essential dkms rclone`
+`sudo apt install -y vim htop vlc bc module-assistant build-essential dkms rclone libreoffice-calc libreoffice-writer`
+
+# Keyboard shortcuts
+`gsettings set org.cinnamon.desktop.keybindings.wm close "['<Alt>F4', '<Super>q']"`
 
 # Lines to be add to ~/.bashrc
 ```
