@@ -9,7 +9,8 @@ sudo apt purge -y libreoffice-* hexchat hexchat-common celluloid redshift rhythm
 
 # Install essentials
 ```
-sudo apt install -y vim htop vlc bc module-assistant build-essential dkms rclone libreoffice-calc libreoffice-writer
+sudo apt install -y vim htop vlc bc module-assistant build-essential dkms rclone libreoffice-calc libreoffice-writer python3-pip
+pip3 install --break-system-packages pipenv
 ```
 
 # Keyboard shortcuts
