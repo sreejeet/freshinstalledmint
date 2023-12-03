@@ -22,6 +22,19 @@ gsettings set org.cinnamon.desktop.keybindings.media-keys terminal "['<Primary><
 gsettings set org.cinnamon.desktop.keybindings.wm minimize "['<Alt>m']"
 ```
 
+# Custom Gnome settings
+```
+gsettings set org.cinnamon panels-height "['1:33']"
+gsettings set org.cinnamon.settings-daemon.plugins.power button-power "'shutdown'"
+gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-ac-action "'nothing'"
+gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-battery-action "'nothing'"
+gsettings set org.cinnamon.settings-daemon.plugins.power lid-close-suspend-with-external-monitor "false"
+gsettings set org.cinnamon.settings-daemon.plugins.power sleep-inactive-ac-timeout 0
+gsettings set org.cinnamon.settings-daemon.plugins.power sleep-inactive-ac-type "'suspend'"
+gsettings set org.cinnamon.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
+gsettings set org.cinnamon.settings-daemon.plugins.power sleep-inactive-battery-type "'suspend'"
+```
+
 # Lines to be add to ~/.bashrc
 ```
 echo '
