@@ -1,19 +1,19 @@
-# FreshInstalledMint
-### A few commands and notes for my fresh [Linux Mint](https://linuxmint.com/) installation.
-### This should work fine with Ubuntu and Debian based LinuxMint.
+# Fresh Installed Linux Mint
+A few commands and notes for my fresh [Linux Mint](https://linuxmint.com/) installation.  
+This should work fine with Ubuntu and Debian based LinuxMint.
 
-# Remove pre-installed
+### Remove pre-installed
 ```
 sudo apt purge -y libreoffice-* hexchat hexchat-common celluloid redshift rhythmbox hypnotix timeshift warpinator transmission-* thunderbird sticky simple-scan pix
 ```
 
-# Install essentials
+### Install essentials
 ```
 sudo apt install -y vim htop vlc bc module-assistant build-essential dkms rclone libreoffice-calc libreoffice-writer python3-pip
 pip3 install --break-system-packages pipenv
 ```
 
-# Keyboard shortcuts
+### Keyboard shortcuts
 ```
 gsettings set org.cinnamon.desktop.keybindings.wm close "['<Alt>F4', '<Super>q']"
 gsettings set org.cinnamon.desktop.keybindings.media-keys volume-up "['XF86AudioRaiseVolume', '<Alt>period']"
@@ -23,7 +23,7 @@ gsettings set org.cinnamon.desktop.keybindings.media-keys terminal "['<Primary><
 gsettings set org.cinnamon.desktop.keybindings.wm minimize "['<Alt>m']"
 ```
 
-# Custom Gnome settings
+### Custom Gnome settings
 ```
 gsettings set org.cinnamon panels-height "['1:33']"
 gsettings set org.cinnamon.settings-daemon.plugins.power button-power "'shutdown'"
@@ -36,7 +36,7 @@ gsettings set org.cinnamon.settings-daemon.plugins.power sleep-inactive-battery-
 gsettings set org.cinnamon.settings-daemon.plugins.power sleep-inactive-battery-type "'suspend'"
 ```
 
-# Lines to be add to ~/.bashrc
+### Lines to be add to ~/.bashrc
 ```
 echo '
 export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\n$ "
